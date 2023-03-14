@@ -1,29 +1,32 @@
 import logo from './logo.svg';
-import React from 'react'
 import './App.css';
-import Hero from './component/Hero';
-import Hero1 from './component/Hero1';
+import Home from './pages/Home';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Routes,
+  Redirect
+} from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-       <React.Fragment>
+    <Router>
+      
+       
+      
 
-        <Hero />
-        <Hero1 />
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      {/* <Route path="/About" element={<About />} />
+      <Route path="/Contact" element={<Contact />} />
+      <Route path="/Services" element={<Services />} /> */}
+     
+     
+    </Routes>
+  </Router>
 
-
-
-
-
-
-
-
-
-
-       </React.Fragment>
-
-    </div>
   );
 }
 
