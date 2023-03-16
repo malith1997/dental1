@@ -8,28 +8,7 @@ import Img2 from "../Img/img6.png";
 export default function Hero() {
   return (
     <div>
-        {/* <section>
-        <div className='container'>
-
-                <div className='row1'>
-                    <div className='card-03'>fffffffff</div>
-                    
-                </div>
-
-                <div className='row2'>
-                    <div className='card-02'>dddddddd</div>
-                    <div className='card-02'>eeeeeeeee</div>
-                </div>
-
-                <div className='row3'>
-                <div className='card-03'>fffffffff</div>
-                
-                </div>
-        </div>
-        </section> */}
-
-
-
+    
         <div className='row2'>
                     <div className='card-05'>
                     
@@ -42,8 +21,8 @@ export default function Hero() {
                         </div>
 
                         <div className='row2'>
-                            <div className='card-02'><Image className="img3" src={Img1} alt="img" /></div>
-                            <div className='card-02'><Image className="img3" src={Img2} alt="img" /></div>
+                            <div className='card-02'><Image className="img8" src={Img1} alt="img" /></div>
+                            <div className='card-02'><Image className="img8" src={Img2} alt="img" /></div>
                         </div>
 
                         <div className='row3'>
