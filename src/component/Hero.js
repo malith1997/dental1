@@ -10,8 +10,8 @@ export default function Hero() {
     <div>
     
         <div className='row2'>
-                    <div className='card-05'>
-                    
+                    <div className='card-05'> 
+                    <div className='container3'>
                         <div className='row1'>
                             <div className='card-03'>
                                 <h1 className='text1'>Implant</h1>
@@ -39,24 +39,25 @@ export default function Hero() {
                                         
                         </div>
                               
-
+                        </div>
                     </div>
-
+                    
 
                     
                     <div className='card-05'>
+                  
 
                         <div className='row3'>
                             <div className='card-04'>
-                            <Image className="img3" src={Img3} alt="img" />
+                            <Image className="img111" src={Img3} alt="img" />
                             </div>
                 
                         </div>
 
 
                     </div>
-        
-                    </div>
+                   
+                </div>
            
       
     </div>

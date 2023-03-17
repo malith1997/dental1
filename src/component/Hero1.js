@@ -14,12 +14,13 @@ import four from "../Img/4.png";
 
 
 
+
 export default function Hero1() {
   return (
     <div>
       
         <div className='row2'>
-          
+                    
                     <div className='card-05'>
                     
                     <div className='card-07'>
@@ -32,12 +33,13 @@ export default function Hero1() {
 
                     
                     <div className='card-05'>
-
+                    <div className='container1'>
                         <div className='row3'>
                         <div className='row1'>
                             <div className='card-08'>
-                                <h1 className='text10'>Smile Gallery</h1>
-                                <Image className="gallery" src={Gallery} alt="img" />
+                                <h1 className='text10'>Smile</h1>
+                                <h1 className='text20'>Gallery</h1>
+                               
                                 
                                 
                             </div>
@@ -48,7 +50,7 @@ export default function Hero1() {
                             <div className='card-09'>
                             <h1 className='text11'>Smile</h1>
                             <h1 className='text12'>Makeover</h1>
-                            <Image className="smilelogo" src={Smile} alt="img" />
+                            
 
                             </div>
                            
@@ -59,19 +61,33 @@ export default function Hero1() {
 
 
                     </div>
+                    </div>
         
                     </div>
                     
 
-
+                    <div className='container2'>
                      <div className='row2'>
                             <div className='card-10'><h1 className='text13'>Dental</h1><h1 className='text14'>Veneers</h1><Image className="one" src={one} alt="img" /></div>
                             <div className='card-10'><h1 className='text13'>Dental</h1><h1 className='text14'>Crowns</h1><Image className="one" src={two} alt="img" /></div>
                             <div className='card-10'><h1 className='text13'>Teeth</h1><h1 className='text14'>Whitening</h1><Image className="one" src={three} alt="img" /></div>
                             <div className='card-10'><h1 className='text13'>Dental</h1><h1 className='text14'>Implants</h1><Image className="one" src={four} alt="img" /></div>
-                        </div>
-           
+                        </div><br></br>
+                        
+
+                        <div className="card-11">
+                            <h1 className='textcenter'>Advanced Dentistry</h1>
+                            </div>
+
+                            <div className="card-11">
+                                <h1 className='textcenter'>High Quality Equipment</h1>
+                            </div>
+
+                            <div className="card-11">
+                            <h1 className='textcenter'>Friendly Staff</h1>
+                            </div>
+                    </div>
                 
-    </div>
+                </div>
   )
 }
