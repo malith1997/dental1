@@ -548,12 +548,15 @@ header .nav-btn{
           width: 100%;
           margin-left: 0%;
           border-radius: 0px;
+          
         }
 
         .img8{
           width: 100%;
           border-radius: 20px;
         }
+
+      
 
 
        
@@ -689,7 +692,7 @@ header .nav-btn{
             background-size: cover;
             background-position: center;
             padding: 20px;
-            height: 95.5vh;
+            height: 73.5vh;
           }
 
           .container2 {
@@ -733,7 +736,7 @@ header .nav-btn{
 
           .text3{
             color: #000000;
-            margin-left: 140px;
+            margin-left: 115px;
             margin-top: 15px;
             font-size: 45px;
             font-weight: 600;
@@ -744,7 +747,7 @@ header .nav-btn{
             }
             .text5{
               color: #000000;
-              margin-left: 128px;
+              margin-left: 100px;
               margin-top: 110px;
               font-size: 45px;
               font-weight: 200;
@@ -755,7 +758,7 @@ header .nav-btn{
               }
               .text4{
               color: #030303;
-              margin-left: 98px;
+              margin-left: 75px;
               margin-top: 60px;
               font-size: 45px;
               font-weight: 300;
@@ -771,8 +774,8 @@ header .nav-btn{
                 color: #000000;
                 padding: 15px;
                 width: 200px;
-                margin-left: 26%;
-                margin-top: 45%;
+                margin-left: 23%;
+                margin-top: 52%;
                 border-radius: 50px;
                 }
           
