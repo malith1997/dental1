@@ -22,7 +22,7 @@ const ContactUs = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_r5433yp', 'template_5iusaw4', form.current, '7hCSNowO3QBkPohay')
+      emailjs.sendForm('service_day7mbu', 'template_6pubtg5', form.current, '7hCSNowO3QBkPohay')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -44,7 +44,7 @@ const ContactUs = () => {
         
         <textarea className='form3' name="message" placeholder='Message' />
         <input className="BtnCard6" type="submit" value="Send" onClick={handleClick} />
-        alert("This is an alert message!");
+        
        
       </form>
 

@@ -150,6 +150,18 @@ header .nav-btn{
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 
+.card-040{
+  background: #ffffff;
+  position: relative;
+  flex: 1;
+  max-width: 100%;
+  height: 913px;
+  margin: 3px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+
 .card-05{
   background: #ffffff;
   position: relative;
@@ -161,6 +173,32 @@ header .nav-btn{
 
   
 }
+
+.card-050{
+  background: #ffffff;
+  position: relative;
+  flex: 1; 
+  max-width: 100%;
+  height: 100%;
+  
+
+
+  
+}
+
+.card-051{
+  background: #ffffff;
+  position: relative;
+  flex: 1; 
+  max-width: 100%;
+  height: 100%;
+  
+
+
+  
+}
+
+
 
 .container3{
   background-image: url('../Img/cover1100.png');
@@ -505,6 +543,80 @@ header .nav-btn{
       }
 
 
+
+
+      .formset{
+        display: block;
+        margin: 0 auto;
+      }
+
+
+
+      .form1{
+
+        width: 50%;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        padding:15px;
+        margin-left: 200px;
+        margin-top: 300px;
+        margin-bottom: 30px;
+      }
+      .form2{
+      
+        width: 50%;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        padding:15px;
+        margin-left: 200px;
+        margin-top: 0px;
+      }
+      .form3{
+      
+        width: 50%;
+        border-radius: 5px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        padding:15px;
+        margin-left: 200px;
+        margin-top: 35px;
+      }
+
+
+      .BtnCard6 {
+        cursor: pointer;
+        background: #202020;
+        color: #ebe5e5;
+        border-radius: 5px;
+        width: 200px;
+        height: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+        align-items: center;
+        padding: 10px;
+        display: center;
+        text-align: center;
+        display: block;
+        margin:  auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        
+    
+        
+            
+        
+    
+       
+      }
+    .BtnCard6:hover {
+        color: #000000;
+        transform: scale(1.09);
+        background: #ffffff;
+      }
+
+
       @media only screen and (max-width: 767px){
 
 
@@ -798,7 +910,95 @@ header .nav-btn{
                 margin-top: 52%;
                 border-radius: 50px;
                 }
+
+
+                .form1{
+
+                  width: 80%;
+                  border-radius: 5px;
+                  justify-content: center;
+                  align-items: center;
+                  padding:15px;
+                  margin-left: 6%;
+                  margin-top: 50px;
+                  margin-bottom: 10px;
+                }
+                .form2{
+                
+                  width: 80%;
+                  border-radius: 5px;
+                  justify-content: center;
+                  align-items: center;
+                  padding:15px;
+                  margin-left: 6%;
+                  margin-top: 0px;
+                }
+                .form3{
+                
+                  width: 80%;
+                  border-radius: 5px;
+                  height: 100px;
+                  justify-content: center;
+                  align-items: center;
+                  padding:15px;
+                  margin-left: 6%;
+                  margin-top: 35px;
+                }
           
+                .BtnCard6 {
+                  cursor: pointer;
+                  background: #202020;
+                  color: #ebe5e5;
+                  border-radius: 5px;
+                  width: 200px;
+                  height: 50px;
+                  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+                  align-items: center;
+                  padding: 10px;
+                  display: center;
+                  text-align: center;
+                  display: block;
+                  margin: 0 auto;
+                  margin-bottom: 10px;
+                  margin-top: 10px;
+              
+                  
+                      
+                  
+              
+                 
+                }
+              .BtnCard6:hover {
+                  color: #000000;
+                  transform: scale(1.09);
+                  background: #ffffff;
+                }
+
+
+                .card-051{
+                  
+                    display: none;
+                 
+                
+                
+                  
+                }
+
+                .card-20{
+  
+                  position: relative;
+                  flex: 1;
+                  max-width: 100%;
+                  height: 450px;
+                  margin: 3px;
+                  border-radius: 5px;
+                  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+                  background-color: rgba(255, 255, 255, 0.2);
+                  backdrop-filter: blur(10px);
+                }
+
+
+             
         
       }
 

@@ -4,6 +4,7 @@ import Hero1 from '../component/Hero1'
 import Hero2 from '../component/hero2'
 import Hero3 from '../component/hero3'
 import NavBar from '../component/NavBar'
+import ContactUs from '../component/sendemail'
 import "../Styles/main.css";
 
 
@@ -21,6 +22,7 @@ export default function Home() {
       <Hero1 />
       {/* <Hero2 /> */}
       <Hero3 />
+      {/* <ContactUs /> */}
     
       
       
