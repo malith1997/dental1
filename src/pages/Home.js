@@ -5,6 +5,7 @@ import Hero2 from '../component/hero2'
 import Hero3 from '../component/hero3'
 import NavBar from '../component/NavBar'
 import ContactUs from '../component/sendemail'
+import Footer from '../component/Footer'
 import "../Styles/main.css";
 
 
@@ -23,6 +24,7 @@ export default function Home() {
       {/* <Hero2 /> */}
       <Hero3 />
       {/* <ContactUs /> */}
+      <Footer />
     
       
       
