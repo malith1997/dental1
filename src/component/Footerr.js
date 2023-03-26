@@ -13,79 +13,79 @@ function Footerr() {
     <div className="footerr1">
         <div className='sb_footer section_padding'>
             <div className='sb_footer-links'>
-            <div className='sb_footer-links-div'>
-                <h4 >for bussnes</h4>
+            <div className='sb_footer-links_div'>
+                <h4 className='sb4'>Home</h4>
 
-                <a href='/home'>
-                    <p>employee</p>
+                <a href='/'>
+                    <p className='sbp'>Lorem ipsum</p>
                 </a>
 
-                <a href='/home'>
-                    <p>employee</p>
+                <a href='/'>
+                    <p className='sbp'>Lorem ipsum</p>
                 </a>
 
-                <a href='/home'>
-                    <p>employee</p>
+                <a href='/'>
+                    <p className='sbp'>Lorem ipsum</p>
                 </a>
 
-                <a href='/home'>
-                    <p>employee</p>
+                <a href='/'>
+                    <p className='sbp'>Lorem ipsum</p>
                 </a>
             </div>
-            <div className='sb_fotter_links_div'>
-                <h4>resources</h4>
+            <div className='sb_footer-links_div'>
+                <h4 className='sb4'>Services</h4>
 
-                <a href='/home'>
-                    <p>employee111</p>
+                <a href='/Services'>
+                    <p className='sbp'>Lorem ipsum</p>
                 </a>
 
-                <a href='/home'>
-                    <p>employee111</p>
+                <a href='/Services'>
+                    <p className='sbp'>Lorem ipsum</p>
                 </a>
 
-                <a href='/home'>
-                    <p>employee1111</p>
+                <a href='/Services'>
+                    <p className='sbp'>Lorem ipsum</p>
                 </a>
 
-                <a href='/home'>
-                    <p>employee111</p>
+                <a href='/Services'>
+                    <p className='sbp'>Lorem ipsum</p>
                 </a>
 
 
             </div>
 
             <div className='sb_footer-links_div'>
-                <h4 className='sb4'>patners</h4>
-                <a href='/home'>
-                    <p className='sbp'>employeedddd</p>
+                <h4 className='sb4'>About</h4>
+                <a href='/About'>
+                    <p className='sbp'>Lorem ipsum</p>
                 </a>
-                <a href='/home'>
-                    <p className='sbp'>employeedddd</p>
+                <a href='/About'>
+                    <p className='sbp'>Lorem ipsum</p>
                 </a>
-                <a href='/home'>
-                    <p className='sbp'>employeeddd</p>
+                <a href='/About'>
+                    <p className='sbp'>Lorem ipsum</p>
                 </a>
-                <a href='/home'>
-                    <p className='sbp'>employeedd</p>
+                <a href='/About'>
+                    <p className='sbp'>Lorem ipsum</p>
                 </a>
                 
             </div>
 
             <div className='sb_footer-links_div'>
-            <h4 className='sb4'>commingaaaaaaaaaaa</h4>
-                <a href='/home'>
-                    <p className='sbp'>employeedd</p>
+            <h4 className='sb4'>Contact</h4>
+                <a href='/Contact'>
+                    <p className='sbp'>Dental.helth@gmail.com</p>
                 </a>
-                <a href='/home'>
-                    <p className='sbp'>employeedd</p>
+                <a href='/Contact'>
+                    <p className='sbp'>+9411223355</p>
                 </a>
-                <a href='/home'>
-                    <p className='sbp'>employeedd</p>
+                <a href='/Contact'>
+                    <p className='sbp'>127,Colombo 07</p>
                 </a>  
 
             </div>
             <div className='sb_footer-links_div'>
-                <h4 className='sb4'>comming soon</h4>
+                <h4 className='sb4'></h4>
                 <div className='socialmedia'>
                     <p className='sbp'><Image className="img31" src={Face} alt="img" /></p>
                     <p className='sbp'> <Image className="img31" src={Insta} alt="img" /></p>

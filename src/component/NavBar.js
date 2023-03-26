@@ -2,6 +2,9 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import { Link } from "react-router-dom";
 import { useRef } from "react";
+import Close from "../Img/close.png";
+import Menu from "../Img/menu.png";
+import { Image} from '@chakra-ui/react';
 
 
 export default function NavBar() {
@@ -47,7 +50,7 @@ export default function NavBar() {
                 
                 {/* USE FOR SMOLLER SCREEN CLOSE THE NAV */}
                 <button className="nav-btn nav-close-btn" onClick={showNav}> 
-                    <a>*</a>
+                    <a><Image className="img35" src={Close} /></a>
                 </button>
             </nav>
 
@@ -58,7 +61,7 @@ export default function NavBar() {
 
             {/* OPEN THE NAV IN SMOLLER SCREEN */}
             <button className="nav-btn" onClick={showNav}>
-            <a>--</a>
+            <a><Image className="img36" src={Menu} /></a>
                 </button>
         </header>
   )

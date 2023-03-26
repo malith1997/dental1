@@ -2,7 +2,7 @@ import React from 'react'
 import { Grid, GridItem } from '@chakra-ui/react'
 import "../Styles/main.css";
 import { ButtonGroup,Divider,Stack,Image,Heading,Text,Button,Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react';
-import Img3 from "../Img/smile.png";
+import Img3 from "../Img/smile22.png";
 import Img1 from "../Img/img5.png";
 import Img2 from "../Img/img6.png";
 import Gallery from "../Img/gallery.png";
