@@ -14,7 +14,7 @@ function Footer() {
 
      <div class="row100">
     <div class="columnx100" >
-    <h1>Iraj Toussaint</h1>
+    <h1>D E N T A L<br></br>H E L T H</h1>
         
     </div>
     <div class="columnx100" >

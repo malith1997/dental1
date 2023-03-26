@@ -639,8 +639,8 @@ header .nav-btn{
       }
 
       .footer {
-        background-color: rgb(24, 24, 24);
-        color: white;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         padding: 20px;
         text-align: center;
         
