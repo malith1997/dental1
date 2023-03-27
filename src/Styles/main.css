@@ -14,18 +14,48 @@ header{
   justify-content: space-between;
   height: 80px;
   padding: 0 2rem;
-  background-color: #ffffff;
+  background-color: #575757;
   color: var(--textColor);
+  background-image: url('../Img/back22.png');
+}
+
+.dental{
+  color: #ebe5e5;
+  font-size: 20px;
+}
+
+.nav55{
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  flex: 1;
+  max-width: 50%;
+  height: 30px;
+ 
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  transition: 2s;
+  z-index: 0;
 }
 
 nav a{
-  margin:0 2rem;
-  color: var(--textColor);
+  
+  color: rgb(241, 241, 241);
   text-decoration: none;
+  margin-left: 15%;
+
 }
 
 nav a:hover{
-  color: var(--secondaryColor);
+  color: rgb(255, 255, 255);
+  padding: 2rem;
+  transition: 1.5s;
+  border-radius: 100px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(30px);
+  color: #ffffff;
+  
+  
+  
 }
 
 header .nav-btn{
@@ -39,10 +69,18 @@ header .nav-btn{
   opacity: 0;
   font-size: 1.8rem;
   z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 }
+
 
 .container{
   margin: 20px;
+  
 }
 
 .row1{
@@ -202,10 +240,11 @@ header .nav-btn{
 
 
 .container3{
-  background-image: url('../Img/cover1100.png');
+  background-image: url('../Img/aaaaa.png');
   background-size: cover;
   background-position: center;
   padding: 20px;
+  
   
 }
 
@@ -297,7 +336,7 @@ header .nav-btn{
 }
 
 .container1 {
-  background-image: url('../Img/Img1.png');
+  background-image: url('../Img/smile123.png');
   background-size: cover;
   background-position: center;
   padding: 20px;
@@ -305,11 +344,11 @@ header .nav-btn{
 }
 
 .container2 {
-  background-image: url('../Img/back1.png');
+  background-image: url('../Img/cov33.svg');
   background-size: cover;
   background-position: center;
   padding: 20px;
-  height: 100vh;
+  height: 75vh;
 }
 
 .card-11 {
@@ -359,6 +398,7 @@ header .nav-btn{
   height: 100%;
   position: relative;
   object-fit: cover;
+ 
   
 }
 
@@ -474,7 +514,7 @@ header .nav-btn{
       font-size: 60px;
       font-weight: 100px;
       position: absolute;
-      color: #2e2e2e;
+      color: #ffffff;
       opacity: 1;
   
       
@@ -487,7 +527,7 @@ header .nav-btn{
         font-size: 60px;
         font-weight: 100px;
         position: absolute;
-        color: #252525;
+        color: #ffffff;
         opacity: 1;
         margin-top: 110px;
     
@@ -501,7 +541,7 @@ header .nav-btn{
         font-size: 90px;
         font-weight: 100px;
         position: absolute;
-        color: #252525;
+        color: #ffffff;
         opacity: 1;
         
     }
@@ -512,7 +552,7 @@ header .nav-btn{
           font-size: 90px;
           font-weight: 100px;
           position: absolute;
-          color: #252525;
+          color: #ffffff;
           opacity: 1;
           
     }
@@ -639,8 +679,8 @@ header .nav-btn{
       }
 
       .footer {
-        background-color: rgb(24, 24, 24);
-        color: white;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         padding: 20px;
         text-align: center;
         
@@ -672,12 +712,21 @@ header .nav-btn{
       }
 
 
+      .img35{
+        display: none;
+        
+      }
+
+      
+
+
       @media only screen and (max-width: 767px){
 
 
         header .nav-btn{
           visibility: visible;
           opacity: 1;
+          transition: 5s;
           
       }
       header nav{
@@ -695,6 +744,7 @@ header .nav-btn{
           transition: 1s;
           transform: translateY(-100vh);
           
+          
       }
   
       header .responsive_nav{
@@ -702,6 +752,7 @@ header .nav-btn{
           background-color: #ffffff;
           color: #000000;
           z-index: 10;
+          
       }
   
       nav .nav-close-btn{
@@ -709,11 +760,13 @@ header .nav-btn{
           top: 2rem;
           right: 2rem;
          
+         
           
       }
   
       nav a{
           font-size:  1.5rem;
+         
           
       }
 
@@ -804,7 +857,7 @@ header .nav-btn{
               font-size: 40px;
               font-weight: 100px;
               position: absolute;
-              color: #000000;
+              color: #ffffff;
               opacity: 0.6;
             
               
@@ -818,7 +871,7 @@ header .nav-btn{
                 font-size: 40px;
                 font-weight: 100px;
                 position: absolute;
-                color: #000000;
+                color: #ffffff;
                 opacity: 0.6;
                 
             }
@@ -829,7 +882,7 @@ header .nav-btn{
                   font-size: 30px;
                   font-weight: 100px;
                   position: absolute;
-                  color: #000000;
+                  color: #ffffff;
                   opacity: 0.6;
                   
             }
@@ -840,7 +893,7 @@ header .nav-btn{
               font-size: 30px;
               font-weight: 100px;
               position: absolute;
-              color: #000000;
+              color: #ffffff;
               opacity: 0.6;
               
         }
@@ -878,8 +931,10 @@ header .nav-btn{
           
           }
 
+          
+
           .container1 {
-            background-image: url('../Img/Img1.png');
+            background-image: url('../Img/smile123.png');
             background-size: cover;
             background-position: center;
             padding: 20px;
@@ -887,11 +942,11 @@ header .nav-btn{
           }
 
           .container2 {
-            background-image: url('../Img/back1.png');
+            background-image: url('../Img/cov33.svg');
             background-size: cover;
             background-position: center;
             padding: 20px;
-            height: 220vh;
+            height: 175vh;
           }
 
           .card-08{
@@ -1107,9 +1162,68 @@ header .nav-btn{
                 }
 
 
+                .img35{
+                  width: 15%;
+                  margin-left: -150%;
+                  margin-top: 300%;
+                  
+                  
+                  
+                }
+        
+                .img36{
+                  width: 25%;
+                  z-index: 10;
+               
+                  
+                }
+
+                .nav55{
+                  
+                  backdrop-filter: blur(10px);
+                  flex: 1;
+                  max-width: 50%;
+                  height: 100%;
+                
+                 
+                }
+
+                nav a{
+  
+                  color: rgb(53, 53, 53);
+                  text-decoration: none;
+                  margin-left: 15%;
+                
+                }
+
+                nav a:hover{
+                  color: rgb(255, 255, 255);
+                  padding: 2rem;
+                  transition: 1.5s;
+                  border-radius: 50px;
+                  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                  backdrop-filter: blur(30px);
+                  color: #2759ce;
+                  
+                
+                  
+                }
+
+
+                
+
+              
+
+
              
         
       }
+
+
+     
+
+       
+   
 
 
       

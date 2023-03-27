@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Styles/main.css";
 import { ButtonGroup,Divider,Stack,Image,Heading,Text,Button,Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react';
-import Img3 from "../Img/img7.png";
+import Img3 from "../Img/cover333333.png";
 import Img1 from "../Img/img5.png";
 import Img2 from "../Img/img6.png";
 
