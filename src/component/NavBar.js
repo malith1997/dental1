@@ -34,8 +34,8 @@ export default function NavBar() {
     return(   
         
         <header>
-            <h2>D e n t a l<br></br>H E L T H</h2>
-            <nav ref={navRef}>
+            <h2 className='dental'>D e n t a l<br></br>H E L T H</h2>
+            <nav className='nav55' ref={navRef}>
           
                
                     <Link to="/">Home</Link>

@@ -3,11 +3,13 @@ import Hero from '../component/Hero'
 import Hero1 from '../component/Hero1'
 import Hero2 from '../component/hero2'
 import Hero3 from '../component/hero3'
-import NavBar from '../component/NavBar'
+import NavBar from '../component/Navbar'
 import ContactUs from '../component/sendemail'
 import Footer from '../component/Footer'
 import Footerr from '../component/Footerr'
 import "../Styles/main.css";
+import Navbar from '../component/Navbar.js'
+
 
 
 export default function Home() {
@@ -19,7 +21,8 @@ export default function Home() {
       <React.Fragment>
       
   
-      <NavBar />
+      <Navbar />
+      
       <Hero />
       <Hero1 />
       {/* <Hero2 /> */}
